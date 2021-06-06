@@ -1,0 +1,210 @@
+/* global style */
+html {
+    box-sizing: border-box;
+    font-size: 100%; 
+    scroll-behavior: smooth;  
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    background: #c8ced2;
+    color: purple;
+}
+
+a:link {
+    text-decoration: none;
+    outline: none;
+    color: purple;
+}
+
+a:hover {
+    color: #e793a1;
+}
+
+/* back-link style */
+#back {
+    color:red;
+}
+
+#back:hover {
+    color: #e793a1;
+}
+
+/* submit button style */
+#submit {
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    background: purple;
+}
+
+#submit:hover {
+    color: wheat    ;
+}
+
+
+/* header style */
+.style {
+    width: 20vw;
+    height: 100vh;
+    background: purple;
+    display: float;
+    float: left;
+}
+
+header {
+    height: 20vh;
+    width: 80vw;
+    margin-left: 20vw;
+    background: #e03e52;
+    color: #FFFFFF;
+}
+
+header h1 {
+    padding: 0.6em 1em 1em 1em;
+    margin: 0;
+    font-size: 5.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+/* navigation style */
+navigation ul {
+    list-style-type: none;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0.2rem;
+    border-bottom-style: inset;
+}
+
+navigation li {
+    border-right-style: inset;
+}
+
+navigation li:last-child {
+    border-right-style: none;
+}
+
+/* content_space style */
+#content {
+    height: 71.1vh;
+}
+
+/* footer style */
+footer {
+    width: 80vw;
+    height: 5vh;
+    margin-left: 20vw;
+    padding: 0.5rem 0 0rem 20rem ;
+    background: #e03e52;
+    color: #FFFFFF;
+}
+
+/* login_page style */
+.login {
+    padding: 2rem 0 0 40rem ;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.login input {
+    width: 20rem;
+    height: 2rem;
+    border-style: none;
+}
+
+/* post_forms style */
+.post {
+    padding: 0 0 0 20rem;
+}
+
+.post h1 {
+    padding-left: 2rem;
+}
+
+.post input {
+    width: 15rem;
+    height: 1.8rem;
+    border-style: none;
+}
+
+dl {
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+  
+dt {
+    float: left;
+    font-weight: bold;
+    width: 7.8rem;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+  
+dd {
+    padding-top: 0.8rem;
+}
+
+#operations input {
+    margin-top: 0.2rem;
+    margin-left: 7.9rem;
+    width: 6rem;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    background: purple;
+}
+
+.delete p:first-of-type {
+    color: red;
+}
+
+#show dd {
+    padding-left: 8em;
+}
+
+#content .show h1 {
+    line-height: 2rem;
+}
+
+#content .show dd:last-of-type {
+    line-height: 1.3rem;
+    text-align: justify;
+    padding-right: 1rem;
+}
+
+/* errors style */
+.errors {
+    display: inline-block;
+    border: 2px solid red;
+    color: red;
+    padding: 0 1em 0.5em 2em;
+    margin-left: 2em;
+}
+  
+.errors ul {
+    margin-bottom: 0;
+    padding-left: 1em;
+}
+  
+/* session Messages style */
+#message {
+    color:purple;
+    background: white;
+    border: 1.2px solid purple;
+    padding: 0.3em 0 0.3em 15em;
+    margin: 0.5em 5em;
+    width: 38em;
+}
